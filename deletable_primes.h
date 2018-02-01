@@ -13,4 +13,9 @@
 #ifndef ___DELETABLE_PRIMES
 #define ___DELETABLE_PRIMES
 
+ unsigned long remove_digit(int index, unsigned long n);
+ int get_ways(unsigned long p);
+ int count_digits(unsigned long number);
+ bool check_if_prime_number (unsigned long number);
+ 
 #endif
